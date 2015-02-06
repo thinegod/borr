@@ -108,7 +108,7 @@ HÖJDKLAR:
         RäckeVrid = Blad9.Cells(68, 4)                                       'vinkel räcke
             End If
         
-        Offset = Blad9.Cells(2, 3) * vridkonstant
+        Offset = -(Blad9.Cells(2, 3) * vridkonstant)
         
  '*********************************************************************************************************************************************************************
  '*******************************FÖRSTA HÅLET***************************************************
@@ -793,7 +793,7 @@ Blad7.Cells(1, 17) = Blad10.Cells(1, 9) 'trapp ordernummer
         vridkonstant = -100
     End If
     
-    Offset = Blad10.Cells(2, 3) * vridkonstant
+    Offset = -(Blad10.Cells(2, 3) * vridkonstant)
     
     
     
