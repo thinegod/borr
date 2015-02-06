@@ -139,22 +139,13 @@ HÖJDKLAR:
         
                 '***************ställ in offset************
  radhål = radhål + 1: radvrid = radvrid + 1: radflytt = radflytt + 1: radmaskin = radmaskin + 1
-        Cells(radhål, 3) = 0
+        Cells(radhål, 3) = 1
         Cells(radvrid, 3) = Offset
         Cells(radflytt, 3) = 0
         Cells(radmaskin, 3) = 1
-        Cells(radhål, ben) = "ställ in gradförskjutning"
+        Cells(radhål, ben) = "ställ in gradförskjutning och borra"
         
         
-        
-        '*********borra hål på väg tillbaka**********
- radhål = radhål + 1: radvrid = radvrid + 1: radflytt = radflytt + 1: radmaskin = radmaskin + 1
- 
-        Cells(radhål, 3) = 1
-        Cells(radvrid, 3) = 0
-        Cells(radflytt, 3) = 0
-        Cells(radmaskin, 3) = 1
-        Cells(radhål, ben) = "borra andra första steghål"
         
         
         '*******gå tillbaka til där ursprungsläget*****
@@ -273,24 +264,16 @@ GoSub BYTRÖR:
         
         '*****************andra första steghål************
         
-                        '***************ställ in offset************
+        
+                '***************ställ in offset************
  radhål = radhål + 1: radvrid = radvrid + 1: radflytt = radflytt + 1: radmaskin = radmaskin + 1
-        Cells(radhål, 3) = 0
+        Cells(radhål, 3) = 1
         Cells(radvrid, 3) = Offset
         Cells(radflytt, 3) = 0
         Cells(radmaskin, 3) = 1
-        Cells(radhål, ben) = "ställ in gradförskjutning"
+        Cells(radhål, ben) = "ställ in gradförskjutning och borra"
         
         
-        
-        '*********borra hål på väg tillbaka**********
- radhål = radhål + 1: radvrid = radvrid + 1: radflytt = radflytt + 1: radmaskin = radmaskin + 1
- 
-        Cells(radhål, 3) = 1
-        Cells(radvrid, 3) = 0
-        Cells(radflytt, 3) = 0
-        Cells(radmaskin, 3) = 1
-        Cells(radhål, ben) = "borra andra första steghål"
         
         
         '*******gå tillbaka til där ursprungsläget*****
@@ -301,6 +284,7 @@ GoSub BYTRÖR:
         Cells(radflytt, 3) = 0
         Cells(radmaskin, 3) = 1
         Cells(radhål, ben) = "Gå tillbaka till ursprungsläget"
+        
    
  '**************RESTEN AV STEGHÅLEN**************************
  radhål = radhål + 1: radvrid = radvrid + 1: radflytt = radflytt + 1: radmaskin = radmaskin + 1
@@ -389,26 +373,15 @@ End If
         Cells(radmaskin, 3) = 1                         'maskinval
         Cells(radhål, ben) = "1:a steghålet"            'benämning
         
-                '*****************andra första steghål************
-        
-                        '***************ställ in offset************
+        '*****************andra första steghål************
+           
+                '***************ställ in offset************
  radhål = radhål + 1: radvrid = radvrid + 1: radflytt = radflytt + 1: radmaskin = radmaskin + 1
-        Cells(radhål, 3) = 0
+        Cells(radhål, 3) = 1
         Cells(radvrid, 3) = Offset
         Cells(radflytt, 3) = 0
         Cells(radmaskin, 3) = 1
-        Cells(radhål, ben) = "ställ in gradförskjutning"
-        
-        
-        
-        '*********borra hål på väg tillbaka**********
- radhål = radhål + 1: radvrid = radvrid + 1: radflytt = radflytt + 1: radmaskin = radmaskin + 1
- 
-        Cells(radhål, 3) = 1
-        Cells(radvrid, 3) = 0
-        Cells(radflytt, 3) = 0
-        Cells(radmaskin, 3) = 1
-        Cells(radhål, ben) = "borra andra första steghål"
+        Cells(radhål, ben) = "ställ in gradförskjutning och borra"
         
         
         '*******gå tillbaka til där ursprungsläget*****
@@ -419,7 +392,7 @@ End If
         Cells(radflytt, 3) = 0
         Cells(radmaskin, 3) = 1
         Cells(radhål, ben) = "Gå tillbaka till ursprungsläget"
-   
+        
  '**************RESTEN AV STEGHÅLEN**************************
  radhål = radhål + 1: radvrid = radvrid + 1: radflytt = radflytt + 1: radmaskin = radmaskin + 1
   
@@ -515,26 +488,15 @@ End If
         Cells(radmaskin, 3) = 1                         'maskinval
         Cells(radhål, ben) = "1:a steghålet"            'benämning
         
-          '*****************andra första steghål************
-        
-                                '***************ställ in offset************
+        '*****************andra första steghål************
+           
+                '***************ställ in offset************
  radhål = radhål + 1: radvrid = radvrid + 1: radflytt = radflytt + 1: radmaskin = radmaskin + 1
-        Cells(radhål, 3) = 0
+        Cells(radhål, 3) = 1
         Cells(radvrid, 3) = Offset
         Cells(radflytt, 3) = 0
         Cells(radmaskin, 3) = 1
-        Cells(radhål, ben) = "ställ in gradförskjutning"
-        
-        
-        
-        '*********borra hål på väg tillbaka**********
- radhål = radhål + 1: radvrid = radvrid + 1: radflytt = radflytt + 1: radmaskin = radmaskin + 1
- 
-        Cells(radhål, 3) = 1
-        Cells(radvrid, 3) = 0
-        Cells(radflytt, 3) = 0
-        Cells(radmaskin, 3) = 1
-        Cells(radhål, ben) = "borra andra första steghål"
+        Cells(radhål, ben) = "ställ in gradförskjutning och borra"
         
         
         '*******gå tillbaka til där ursprungsläget*****
@@ -884,26 +846,15 @@ Blad7.Cells(1, 17) = Blad10.Cells(1, 9) 'trapp ordernummer
         Cells(radmaskin, 3) = 1                                            '******maskinval
         Cells(radhål, ben) = "1:a steghålet"
         
-                  '*****************andra första steghål************
-        
-                                '***************ställ in offset************
+        '*****************andra första steghål************
+           
+                '***************ställ in offset************
  radhål = radhål + 1: radvrid = radvrid + 1: radflytt = radflytt + 1: radmaskin = radmaskin + 1
-        Cells(radhål, 3) = 0
+        Cells(radhål, 3) = 1
         Cells(radvrid, 3) = Offset
         Cells(radflytt, 3) = 0
         Cells(radmaskin, 3) = 1
-        Cells(radhål, ben) = "ställ in gradförskjutning"
-        
-        
-        
-        '*********borra hål på väg tillbaka**********
- radhål = radhål + 1: radvrid = radvrid + 1: radflytt = radflytt + 1: radmaskin = radmaskin + 1
- 
-        Cells(radhål, 3) = 1
-        Cells(radvrid, 3) = 0
-        Cells(radflytt, 3) = 0
-        Cells(radmaskin, 3) = 1
-        Cells(radhål, ben) = "borra andra första steghål"
+        Cells(radhål, ben) = "ställ in gradförskjutning och borra"
         
         
         '*******gå tillbaka til där ursprungsläget*****
@@ -1075,26 +1026,15 @@ If Blad10.Cells(9, 9) = 1 Then      'om röret skall starta med en skarv
         Cells(radmaskin, 3) = 1                                            '******maskinval
         Cells(radhål, ben) = "1:a steghålet"
         
-                  '*****************andra första steghål************
-        
-                                '***************ställ in offset************
+        '*****************andra första steghål************
+           
+                '***************ställ in offset************
  radhål = radhål + 1: radvrid = radvrid + 1: radflytt = radflytt + 1: radmaskin = radmaskin + 1
-        Cells(radhål, 3) = 0
+        Cells(radhål, 3) = 1
         Cells(radvrid, 3) = Offset
         Cells(radflytt, 3) = 0
         Cells(radmaskin, 3) = 1
-        Cells(radhål, ben) = "ställ in gradförskjutning"
-        
-        
-        
-        '*********borra hål på väg tillbaka**********
- radhål = radhål + 1: radvrid = radvrid + 1: radflytt = radflytt + 1: radmaskin = radmaskin + 1
- 
-        Cells(radhål, 3) = 1
-        Cells(radvrid, 3) = 0
-        Cells(radflytt, 3) = 0
-        Cells(radmaskin, 3) = 1
-        Cells(radhål, ben) = "borra andra första steghål"
+        Cells(radhål, ben) = "ställ in gradförskjutning och borra"
         
         
         '*******gå tillbaka til där ursprungsläget*****
@@ -1237,26 +1177,15 @@ If Blad10.Cells(9, 14) = 1 Then     'om röret skall starta med en skarv
         Cells(radmaskin, 3) = 1                                            '******maskinval
         Cells(radhål, ben) = "1:a steghålet"
         
-                  '*****************andra första steghål************
-        
-                                '***************ställ in offset************
+        '*****************andra första steghål************
+           
+                '***************ställ in offset************
  radhål = radhål + 1: radvrid = radvrid + 1: radflytt = radflytt + 1: radmaskin = radmaskin + 1
-        Cells(radhål, 3) = 0
+        Cells(radhål, 3) = 1
         Cells(radvrid, 3) = Offset
         Cells(radflytt, 3) = 0
         Cells(radmaskin, 3) = 1
-        Cells(radhål, ben) = "ställ in gradförskjutning"
-        
-        
-        
-        '*********borra hål på väg tillbaka**********
- radhål = radhål + 1: radvrid = radvrid + 1: radflytt = radflytt + 1: radmaskin = radmaskin + 1
- 
-        Cells(radhål, 3) = 1
-        Cells(radvrid, 3) = 0
-        Cells(radflytt, 3) = 0
-        Cells(radmaskin, 3) = 1
-        Cells(radhål, ben) = "borra andra första steghål"
+        Cells(radhål, ben) = "ställ in gradförskjutning och borra"
         
         
         '*******gå tillbaka til där ursprungsläget*****
@@ -1402,26 +1331,15 @@ If Blad10.Cells(9, 20) = 1 Then      'om röret skall starta med en skarv
         Cells(radmaskin, 3) = 1                                            '******maskinval
         Cells(radhål, ben) = "1:a steghålet"
         
-                  '*****************andra första steghål************
-        
-                                '***************ställ in offset************
+        '*****************andra första steghål************
+           
+                '***************ställ in offset************
  radhål = radhål + 1: radvrid = radvrid + 1: radflytt = radflytt + 1: radmaskin = radmaskin + 1
-        Cells(radhål, 3) = 0
+        Cells(radhål, 3) = 1
         Cells(radvrid, 3) = Offset
         Cells(radflytt, 3) = 0
         Cells(radmaskin, 3) = 1
-        Cells(radhål, ben) = "ställ in gradförskjutning"
-        
-        
-        
-        '*********borra hål på väg tillbaka**********
- radhål = radhål + 1: radvrid = radvrid + 1: radflytt = radflytt + 1: radmaskin = radmaskin + 1
- 
-        Cells(radhål, 3) = 1
-        Cells(radvrid, 3) = 0
-        Cells(radflytt, 3) = 0
-        Cells(radmaskin, 3) = 1
-        Cells(radhål, ben) = "borra andra första steghål"
+        Cells(radhål, ben) = "ställ in gradförskjutning och borra"
         
         
         '*******gå tillbaka til där ursprungsläget*****
